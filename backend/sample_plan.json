@@ -1,0 +1,422 @@
+{
+  "request": {
+    "source_country": "India",
+    "destination_country": "UAE",
+    "destination_city": "Dubai",
+    "duration_days": 3,
+    "travelers": 2,
+    "start_date": null,
+    "budget_amount": 120000.0,
+    "budget_currency": "INR",
+    "food_preference": "vegetarian",
+    "hotel_category": "premium",
+    "language": "en",
+    "interests": [
+      "heritage",
+      "food",
+      "shopping"
+    ]
+  },
+  "destination": {
+    "must_visit": [
+      {
+        "name": "Old Town (Dubai)",
+        "category": "must_visit",
+        "tags": [
+          "heritage"
+        ],
+        "note": ""
+      }
+    ],
+    "should_visit": [
+      {
+        "name": "Central Food Market (Dubai)",
+        "category": "should_visit",
+        "tags": [
+          "food"
+        ],
+        "note": ""
+      },
+      {
+        "name": "Grand Bazaar (Dubai)",
+        "category": "should_visit",
+        "tags": [
+          "shopping"
+        ],
+        "note": ""
+      }
+    ],
+    "optional": [
+      {
+        "name": "Historic Fort (Dubai)",
+        "category": "optional",
+        "tags": [
+          "heritage"
+        ],
+        "note": ""
+      },
+      {
+        "name": "National Museum (Dubai)",
+        "category": "optional",
+        "tags": [
+          "heritage"
+        ],
+        "note": ""
+      },
+      {
+        "name": "Spice Bazaar (Dubai)",
+        "category": "optional",
+        "tags": [
+          "food"
+        ],
+        "note": ""
+      },
+      {
+        "name": "Designer District (Dubai)",
+        "category": "optional",
+        "tags": [
+          "shopping"
+        ],
+        "note": ""
+      }
+    ],
+    "hidden_gems": [
+      "Local-only caf\u00e9 district in Dubai",
+      "Sunset point near Dubai"
+    ],
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "itinerary": {
+    "days": [
+      {
+        "day": 1,
+        "title": "Day 1: Dubai",
+        "slots": {
+          "morning": [
+            "Old Town (Dubai)"
+          ],
+          "afternoon": [
+            "Central Food Market (Dubai)"
+          ],
+          "evening": [
+            "Grand Bazaar (Dubai)"
+          ],
+          "night": [
+            "Dinner & local stroll"
+          ]
+        },
+        "est_walking_km": 4.5
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Dubai",
+        "slots": {
+          "morning": [
+            "Historic Fort (Dubai)"
+          ],
+          "afternoon": [
+            "National Museum (Dubai)"
+          ],
+          "evening": [
+            "Leisure in Dubai"
+          ],
+          "night": [
+            "Dinner & local stroll"
+          ]
+        },
+        "est_walking_km": 6.0
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Dubai",
+        "slots": {
+          "morning": [
+            "Spice Bazaar (Dubai)"
+          ],
+          "afternoon": [
+            "Designer District (Dubai)"
+          ],
+          "evening": [
+            "Old Town (Dubai)"
+          ],
+          "night": [
+            "Dinner & local stroll"
+          ]
+        },
+        "est_walking_km": 3.0
+      }
+    ],
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "cost": {
+    "source_currency": "INR",
+    "dest_currency": "AED",
+    "fx_source_to_dest": 0.0427,
+    "fx_dest_to_usd": 0.2725,
+    "lines": [
+      {
+        "label": "Accommodation",
+        "amount_dest": 441.0,
+        "amount_source": 10334.06,
+        "amount_usd": 120.16
+      },
+      {
+        "label": "Food",
+        "amount_dest": 330.0,
+        "amount_source": 7732.97,
+        "amount_usd": 89.92
+      },
+      {
+        "label": "Local transport",
+        "amount_dest": 9.6,
+        "amount_source": 224.96,
+        "amount_usd": 2.62
+      },
+      {
+        "label": "Activities",
+        "amount_dest": 120.0,
+        "amount_source": 2811.99,
+        "amount_usd": 32.7
+      },
+      {
+        "label": "Flights (est.)",
+        "amount_dest": 4506.76,
+        "amount_source": 105608.0,
+        "amount_usd": 1228.0
+      },
+      {
+        "label": "Visa",
+        "amount_dest": 660.6,
+        "amount_source": 15480.0,
+        "amount_usd": 180.0
+      }
+    ],
+    "daily_budget_source": 47397.33,
+    "total_source": 142191.98,
+    "total_usd": 1653.4,
+    "within_budget": false,
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "weather": {
+    "days": [
+      {
+        "date": "2026-06-20",
+        "temp_c": 21.0,
+        "humidity_pct": 64.0,
+        "rain_probability_pct": 37.0,
+        "wind_kph": 11.0,
+        "summary": "Mostly clear"
+      },
+      {
+        "date": "2026-06-21",
+        "temp_c": 21.0,
+        "humidity_pct": 64.0,
+        "rain_probability_pct": 37.0,
+        "wind_kph": 11.0,
+        "summary": "Mostly clear"
+      },
+      {
+        "date": "2026-06-22",
+        "temp_c": 21.0,
+        "humidity_pct": 64.0,
+        "rain_probability_pct": 37.0,
+        "wind_kph": 11.0,
+        "summary": "Mostly clear"
+      }
+    ],
+    "aqi": 100,
+    "source": "offline",
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "packing": {
+    "clothing": [
+      "Warm layers",
+      "Light jacket"
+    ],
+    "footwear": [
+      "Walking shoes"
+    ],
+    "accessories": [
+      "Sunglasses",
+      "Reusable water bottle",
+      "Daypack"
+    ],
+    "electronics": [
+      "Phone & charger",
+      "Universal power adapter",
+      "Power bank"
+    ],
+    "medicines": [
+      "Personal medication",
+      "Basic first-aid",
+      "Motion-sickness tablets"
+    ],
+    "documents": [
+      "Passport",
+      "Visa copy",
+      "Travel insurance",
+      "Hotel bookings",
+      "ID"
+    ],
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "transport": {
+    "options": [
+      {
+        "mode": "Walking",
+        "approx_cost_dest": 0.0,
+        "typical_time_min": 30,
+        "note": "Free; central areas"
+      },
+      {
+        "mode": "Bus",
+        "approx_cost_dest": 0.8,
+        "typical_time_min": 40,
+        "note": "Estimated fare per ride"
+      },
+      {
+        "mode": "Metro",
+        "approx_cost_dest": 1.5,
+        "typical_time_min": 25,
+        "note": "Estimated fare per ride"
+      },
+      {
+        "mode": "Taxi",
+        "approx_cost_dest": 8.0,
+        "typical_time_min": 20,
+        "note": "Estimated per short hop"
+      },
+      {
+        "mode": "Ride sharing",
+        "approx_cost_dest": 6.0,
+        "typical_time_min": 22,
+        "note": "Estimated per short hop"
+      },
+      {
+        "mode": "Rental car",
+        "approx_cost_dest": 45.0,
+        "typical_time_min": 0,
+        "note": "Estimated per day"
+      }
+    ],
+    "source": "offline",
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "hotels": {
+    "recommended": [
+      {
+        "name": "Dubai Premium Stay 1",
+        "category": "premium",
+        "price_per_night_dest": 147.0,
+        "rating": 4.2,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Breakfast",
+          "Pool",
+          "Spa"
+        ],
+        "distance_km_to_center": 4.2,
+        "pros": [
+          "Quieter area",
+          "Good rating"
+        ],
+        "cons": [
+          "Basic rooms"
+        ]
+      },
+      {
+        "name": "Dubai Premium Stay 2",
+        "category": "premium",
+        "price_per_night_dest": 184.0,
+        "rating": 4.3,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Breakfast",
+          "Pool",
+          "Spa"
+        ],
+        "distance_km_to_center": 4.7,
+        "pros": [
+          "Quieter area",
+          "Good rating"
+        ],
+        "cons": [
+          "Books up fast"
+        ]
+      },
+      {
+        "name": "Dubai Premium Stay 3",
+        "category": "premium",
+        "price_per_night_dest": 221.0,
+        "rating": 4.4,
+        "amenities": [
+          "WiFi",
+          "AC",
+          "Breakfast",
+          "Pool",
+          "Spa"
+        ],
+        "distance_km_to_center": 5.2,
+        "pros": [
+          "Quieter area",
+          "Good rating"
+        ],
+        "cons": [
+          "Books up fast"
+        ]
+      }
+    ],
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "food": {
+    "must_try_dishes": [
+      "Local veg thali",
+      "Grilled vegetables",
+      "Paneer/tofu dish"
+    ],
+    "restaurants": [
+      "Dubai Garden Restaurant",
+      "Old Town Eatery, Dubai"
+    ],
+    "street_food": [
+      "Dubai Night Market stalls",
+      "Local food street"
+    ],
+    "dietary_notes": "Filtered for vegetarian preference.",
+    "source": "offline",
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "visa": {
+    "required": true,
+    "visa_type": "Tourist eVisa",
+    "evisa_available": true,
+    "processing_days": 5,
+    "recommended_apply_by": "At least 14 days before travel",
+    "fee_per_traveler_usd": 90.0,
+    "total_fee_usd": 180.0,
+    "required_documents": [
+      "Passport (6mo)",
+      "Photo",
+      "Return ticket",
+      "Hotel booking"
+    ],
+    "advisories": [
+      "Visa rules change frequently \u2014 confirm on the official portal."
+    ],
+    "advisory_score": null,
+    "advisory_source": "offline",
+    "narrative": "Assistant: guidance generated from available data (offline mode)."
+  },
+  "evaluation": {
+    "confidence": 1.0,
+    "missing": [],
+    "contradictions": [],
+    "caveats": [
+      "Estimated cost (142192 INR) exceeds the stated budget (120000)."
+    ],
+    "uncertain_sections": []
+  },
+  "provider_used": "offline"
+}
