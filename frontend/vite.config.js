@@ -7,8 +7,8 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      "/plan": "https://travel-agent-ya6m.onrender.com",
-      "/health": "https://travel-agent-ya6m.onrender.com",
+      "/plan": "https://travel-agent-1-zm2s.onrender.com",
+      "/health": "https://travel-agent-1-zm2s.onrender.com",
     },
   },
 });
